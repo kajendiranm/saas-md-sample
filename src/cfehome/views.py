@@ -5,6 +5,7 @@ from django.conf import settings
 this_dir = pathlib.Path(__file__).resolve().parent
 
 def home_page_view(request, *args, **kwargs):
+    #changes
     html = (settings.BASE_DIR / 'cfehome/home.html').read_text()
     return HttpResponse(html)
     return HttpResponse('<h1>Hello World!</h1>')
