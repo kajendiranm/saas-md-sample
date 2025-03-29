@@ -1,1 +1,6 @@
 Django>=5.0,<5.1
+python-decouple
+psycopg[binary]
+dj-database-url
+requests
+whitenoise
